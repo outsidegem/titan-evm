@@ -1,0 +1,19 @@
+{
+  "name": "titan-evm-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "napi build --platform --release"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.0.0"
+  },
+  "napi": {
+    "name": "titan-evm-core",
+    "triples": {
+      "defaults": true,
+      "additional": ["aarch64-linux-android"]
+    }
+  }
+}
