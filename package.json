@@ -1,6 +1,6 @@
 {
   "name": "titan-evm-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -13,7 +13,9 @@
     "name": "titan-evm-core",
     "triples": {
       "defaults": true,
-      "additional": ["aarch64-linux-android"]
+      "additional": [
+        "aarch64-linux-android"
+      ]
     }
   }
 }
