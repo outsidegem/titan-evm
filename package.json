@@ -1,21 +1,12 @@
 {
   "name": "titan-evm-core",
-  "version": "1.0.1",
+  "version": "1.0.3",
+  "description": "Mobile-native Bionic EVM execution layer",
   "main": "index.js",
-  "license": "Apache-2.0",
-  "scripts": {
-    "build": "napi build --platform --release"
-  },
-  "devDependencies": {
-    "@napi-rs/cli": "^2.0.0"
-  },
-  "napi": {
-    "name": "titan-evm-core",
-    "triples": {
-      "defaults": true,
-      "additional": [
-        "aarch64-linux-android"
-      ]
-    }
-  }
+  "files": [
+    "index.js",
+    "titan-evm-core.android-arm64.node"
+  ],
+  "author": "Digital Mineral Solutions LLC",
+  "license": "Apache-2.0"
 }
